@@ -1,0 +1,134 @@
+article, aside, details, figcaption, figure, header, hgroup, menu, nav,
+section{
+	display: block;
+}
+h1{
+	font-size: 0.9em;
+	margin: 0px;
+}
+
+#wrap{
+	margin: 0 auto;
+	width: 960px;
+}
+
+#mainimg{
+	width: 960px;
+	height: 350px;
+	float: left;
+	margin: 10px 0px 15px 0px;
+}
+
+#contents{
+	width: 615px;
+	float: left;
+}
+
+#sidenavi{
+	width: 330px;
+	margin-left: 15px;
+	float: left;
+}
+
+#menu{
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu li{
+	float: left;
+	list-style-type: none;
+}
+
+#newsbox{
+	width: 593px;
+	height: auto;
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin-bottom: 15px;
+	background-color: #FFF;
+}
+
+#newsbox p{
+	border-bottom: 1px dashed #CCC;
+}
+
+#goannai{
+	font-size: 1.2em;
+	border-bottom: 2px solid #C30;
+	margin: 0px 0px 15px 0px;
+	color: #C30;
+}
+
+.midashi{
+	border-bottom: 1px dashed #C30;
+	font-weight: bold;
+	color: #C30;
+	font-size: 1.2em;
+}
+
+.contentsbox{
+	width: 593px;
+	height: auto;
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin-bottom: 15px;
+	background-color: #FFF;
+}
+
+.imgbox{
+	width: 230px;
+	height: 167px;
+	float: right;
+	margin: 10px 0px 10px 25px;
+}
+
+.clear{
+	clear: both;
+}
+
+.sidebox{
+	width: 330px;
+	height: 130px;
+	margin-bottom: 15px;
+}
+
+body{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meirio, Osaka, "MS P ゴシック", "MS PGothic", sans-serif;
+	color: #630;
+	line-height: 25px;
+	font-size: 0.95em;
+}
+
+h2{
+	font-size: 0.9em;
+	margin: 0px 0px 20px 0px;
+}
+
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #630;
+}
+a:visited{
+	color: #630;
+}
+a:hover{
+	color: #630;
+	text-decoration: underline;
+}
+a:active{
+	color: #630;
+}
+
+footer{
+	clear: both;
+	height: 50px;
+	text-align: center;
+	font-size: 0.85em;
+	background-image: url(img/footer.gif);
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	display: block;
+}
